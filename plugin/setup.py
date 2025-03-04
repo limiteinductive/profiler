@@ -33,17 +33,11 @@ REQUIRED_PACKAGES = [
     'etils[epath] >= 1.0.0'
 ]
 
-
-def get_readme():
-  with open('README.md') as f:
-    return f.read()
-
-
 setuptools.setup(
     name=PROJECT_NAME,
     version=VERSION,
     description='Profile Tensorboard Plugin',
-    long_description=get_readme(),
+    long_description='lol',
     long_description_content_type='text/markdown',
     author='Google Inc.',
     author_email='packages@tensorflow.org',
