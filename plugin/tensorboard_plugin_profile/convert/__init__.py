@@ -13,3 +13,4 @@
 # limitations under the License.
 # ==============================================================================
 """Converter from protobuf to gviz/json format."""
+from tensorflow.python.profiler.internal import _pywrap_profiler_plugin
